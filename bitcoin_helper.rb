@@ -33,15 +33,15 @@ until ( user_input = gets.chomp.strip ) =~ /(?:ex|qu)it/ix
 
   elsif user_input =~ /^.*((buy.*or.*sell.*(bit\ coin|btc|bitcoin))|(sell.*or.*buy.*(bit\ coin|btc|bitcoin))).*$/ix
 
-    print_f "#{ rand_resp( 'bullish_phrases' ) }, you should definitely buy some BTC."
+    print_f "#{ rand_resp( 'bullish_phrases' ) }, #{ rand_resp( 'buy_clauses' ) }."
 
   elsif user_input =~ /^.*(sell.*(bit\ coin|btc|bitcoin)).*$/ix
 
-    print_f "#{ rand_resp( 'say_no' ) }, you should NOT sell Bitcoin. You should buy Bitcoin."
+    print_f "#{ rand_resp( 'say_no' ) }, #{ rand_resp( 'sell_clauses' ) }."
 
   elsif user_input =~ /^.*(buy.*(bit\ coin|btc|bitcoin)).*$/ix
 
-    print_f "#{ rand_resp( 'say_yes' ) }, you should definitely buy Bitcoin."
+    print_f "#{ rand_resp( 'say_yes' ) }, #{ rand_resp( 'buy_clauses' ) }."
 
   else
 

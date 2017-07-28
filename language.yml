@@ -43,8 +43,26 @@ say_no:
 say_yes:
   - 'Yes'
   - '100%'
+  - '*Nodding head* Yes'
   - 'Definitely'
+  - 'YES'
+  - 'Heck yes'
+  - 'Let me think for a second--YES'
+  - 'Affirmative'
   - 'Undoubtedly'
+  - 'Aye aye'
+  - 'Aye aye Captain'
+  - 'Roger that'
+  - '10-4'
+  - 'Yessir'
+  - 'Yezzir'
+  - "That would be dope"
+  - "Hai (that means \"yes\" in Japanese)"
+  - 'Right on'
+  - "My magic 8ball says: \'You may rely on it\'"
+  - "My magic 8ball says: \'It is certain\'"
+  - "My magic 8ball says: \'Outlook good\'"
+  - "Fo\' shizzle"
   - 'Eff yes'
   - 'Yesiree Bob'
   - 'Yep'
@@ -54,14 +72,35 @@ say_yes:
   - 'Si senorita'
   - 'Si mi amigo'
   - 'Si mi Amiga'
-  - "R. Kelley says \"Yes you should\""
+  - "R. Kelley says \'Yes you should\'"
 
 bullish_phrases:
   - 'Easy'
   - 'No-brainer'
-  - "Get in while it's low"
+  - "Get in while it\'s low"
   - 'Bitcoin will be worth $20K in a few years'
   - 'If you like money'
   - 'If you enjoy making money'
   - 'If you want your own yacht'
   - 'R. Kelley has spoken'
+
+buy_clauses:
+  - 'you should definitely buy some Bitcoin'
+  - 'you should buy BTC like it is going out of style'
+  - 'you should buy Bitcoin and you should do it now'
+  - 'buying Bitcoin is the wisest investment you can make right now'
+  - 'buying Bitcoin is for people who want to make money, so if you want to make money then yes'
+  - 'this is a dumb question--you should buy Bitcoin'
+  - "I\'m suprised this isn\'t more obvious. YES, YOU SHOULD BUY BITCOIN"
+  - 'LET ME MAKE THIS CLEAR: YES YOU SHOULD BUY AS MUCH BTC AS YOU CAN GET YOUR HANDS ON'
+  - "you should buy Bitcoin. Buy low, sell high and BTC\'s price is only getting going to rise"
+  - "you\'re smart so you should buy BTC. Then again if you were dumb that wouldn\'t change anything"
+
+sell_clauses:
+  - 'you should never sell BTC'
+  - 'you should not sell BTC. You should sell your stuff to buy BTC if necessary'
+  - 'selling Bitcoin would be ludacrous'
+  - 'selling Bitcoin would be silly'
+  - "the rule is buy low and sell high. BTC\'s price is only going up"
+  - 'you should NOT sell Bitcoin. You should go and buy some Bitcoin'
+  - 'you should definitely not sell Bitcoin. You should go and buy some Bitcoin'
