@@ -1,12 +1,12 @@
 
-This is a CLI program that answers any question along the lines of "should I buy bitcoin?". I'm not a financial advisor, don't take the answers seriously.
+This is a CLI program that answers any question along the lines of "should I buy bitcoin?" or "should I sell my bitcoins?". Sort of like a magic 8ball. I'm not a financial advisor, don't take the answers seriously.
 
 ### Usage
 * when the script runs, type *exit* or *quit* to terminate.
 ```
 $ git clone https://github.com/rskelley9/should_I_buy_btc.git
 
-$ cd should_I_buy_btc && ruby ruby_helper.sh
+$ cd should_I_buy_btc && ruby ruby_helper.rb
 
 #=> Ask me whether you should buy or sell Bitcoin.
 
